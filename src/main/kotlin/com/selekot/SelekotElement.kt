@@ -28,4 +28,11 @@ class SelekotElement(private val driver: WebDriver, private val locator: By) {
         getElement().sendKeys(Keys.ENTER)
     }
 
+    fun clear(){
+        getElement().clear()
+    }
+
+    fun setValue(value: String) {
+        getElement().sendKeys(value)
+    }
 }
