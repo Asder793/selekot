@@ -1,1 +1,2 @@
-# selekot
+# Selekot
+Selenide framework on kotlin
